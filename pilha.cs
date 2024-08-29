@@ -10,6 +10,13 @@ public class pilha
     private int top;
     private int total;
 
+    public pilha(int total)
+    {
+        this.total = total;
+        elementos = new int[total];
+        top = -1;
+    }
+
     //criando metodos push(enviar para a pilha) e pop(retirar elemento no topo da pilha)
 
     //metodo push
@@ -47,9 +54,8 @@ public class pilha
 
 class principal
 {
-    static void main(string[] args)
+    public static void Main(string[] args)
     {
-
-
+        pilha teste1 = new pilha(10);
     }
 }

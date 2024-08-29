@@ -1,0 +1,15 @@
+C:\Users\rafael\Documents\estrutura de dados\obj\Debug\net8.0\pilha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafael\Documents\estrutura de dados\obj\Debug\net8.0\pilha.AssemblyInfoInputs.cache
+C:\Users\rafael\Documents\estrutura de dados\obj\Debug\net8.0\pilha.AssemblyInfo.cs
+C:\Users\rafael\Documents\estrutura de dados\obj\Debug\net8.0\pilha.csproj.CoreCompileInputs.cache
+C:\Users\rafael\Documents\estrutura de dados\obj\Debug\net8.0\pilha.sourcelink.json
+C:\Users\rafael\Documents\estrutura de dados\bin\Debug\net8.0\pilha.exe
+C:\Users\rafael\Documents\estrutura de dados\bin\Debug\net8.0\pilha.deps.json
+C:\Users\rafael\Documents\estrutura de dados\bin\Debug\net8.0\pilha.runtimeconfig.json
+C:\Users\rafael\Documents\estrutura de dados\bin\Debug\net8.0\pilha.dll
+C:\Users\rafael\Documents\estrutura de dados\bin\Debug\net8.0\pilha.pdb
+C:\Users\rafael\Documents\estrutura de dados\obj\Debug\net8.0\pilha.dll
+C:\Users\rafael\Documents\estrutura de dados\obj\Debug\net8.0\refint\pilha.dll
+C:\Users\rafael\Documents\estrutura de dados\obj\Debug\net8.0\pilha.pdb
+C:\Users\rafael\Documents\estrutura de dados\obj\Debug\net8.0\pilha.genruntimeconfig.cache
+C:\Users\rafael\Documents\estrutura de dados\obj\Debug\net8.0\ref\pilha.dll
