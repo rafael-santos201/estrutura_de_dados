@@ -36,6 +36,12 @@ public class pilha
     {
         return (top == -1);
     }
+
+    //metodo para mostrar o elemento que está no topo da pilha 
+    public int show()
+    {
+        return elementos[top];
+    }
 }
 
 
