@@ -22,12 +22,15 @@ public class pilha
     //metodo push
     public void push(int numero)
     {
+        //verificando se a pilha ainda tem espaço;
+        if(top == total-1){Console.WriteLine("Pilha Cheia"); return;}
         elementos[++top] = numero;
     }
         
     //metodo pop
     public int pop()
     {
+        if(top == -1){Console.WriteLine("pilha vazia"); return -1;}
         return elementos[top--];
     }
 
@@ -52,24 +55,12 @@ public class pilha
 }
 
 
+
+//  CLASSE PRINCIPAL    
 class principal
 {
     public static void Main(string[] args)
     {
-        pilha teste1 = new pilha(10);
-
-        teste1.push(25);
-        teste1.push(24);
-        teste1.push(23);
-        teste1.push(22);
-        teste1.push(21);
-        teste1.push(20);
-        teste1.push(19);
-        Console.WriteLine($"O Elemnto que está no topo é: {teste1.show()}");
-        teste1.pop();
-
-        Console.WriteLine($"O Elemnto que está no topo é: {teste1.show()}");
-        Console.WriteLine($"A pilha está cheia: {teste1.isFull()}");
-        Console.WriteLine($"A pilha está vazia: {teste1.isEmpty()}");
+        //digite pilha nomeDaVarivel = new pilha() **dentro dos parênteses, coloque o tamanho da pila
     }
 }
