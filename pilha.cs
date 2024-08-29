@@ -57,5 +57,6 @@ class principal
     public static void Main(string[] args)
     {
         pilha teste1 = new pilha(10);
+        console.WriteLine($"O Elemnto que está no topo é: {teste1.show()}");
     }
 }
