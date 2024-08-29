@@ -57,6 +57,19 @@ class principal
     public static void Main(string[] args)
     {
         pilha teste1 = new pilha(10);
-        console.WriteLine($"O Elemnto que está no topo é: {teste1.show()}");
+
+        teste1.push(25);
+        teste1.push(24);
+        teste1.push(23);
+        teste1.push(22);
+        teste1.push(21);
+        teste1.push(20);
+        teste1.push(19);
+        Console.WriteLine($"O Elemnto que está no topo é: {teste1.show()}");
+        teste1.pop();
+
+        Console.WriteLine($"O Elemnto que está no topo é: {teste1.show()}");
+        Console.WriteLine($"A pilha está cheia: {teste1.isFull()}");
+        Console.WriteLine($"A pilha está vazia: {teste1.isEmpty()}");
     }
 }
