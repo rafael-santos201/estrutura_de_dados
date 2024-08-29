@@ -45,3 +45,11 @@ public class pilha
 }
 
 
+class principal
+{
+    static void main(string[] args)
+    {
+
+
+    }
+}
