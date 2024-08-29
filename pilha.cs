@@ -22,6 +22,18 @@ public class pilha
         return elementos[top--];
     }
 
+    //criando metodos isEmpty(verificar se o vetor está vazio) e isFull(verificar se o vetor está cheio)
+
+    //verifica se o vetor está cheio
+    public bool isFull()
+    {
+        return top == total - 1;
+    }
+    //verifica se o vetor está vazio
+    public bool isEmpty()
+    {
+        return (top == -1);
+    }
 }
 
 
