@@ -4,13 +4,13 @@
 using System;
 using System.Runtime;
 
-public class pilha
+public class Pilha
 {
     private int[] elementos;
     private int top;
     private int total;
 
-    public pilha(int total)
+    public Pilha(int total)
     {
         this.total = total;
         elementos = new int[total];
@@ -23,14 +23,14 @@ public class pilha
     public void push(int numero)
     {
         //verificando se a pilha ainda tem espaço;
-        if(top == total-1){Console.WriteLine("Pilha Cheia"); return;}
+        if(top == total-1){Console.WriteLine("\n\n#####Pilha Cheia#####"); return;}
         elementos[++top] = numero;
     }
         
     //metodo pop
     public int pop()
     {
-        if(top == -1){Console.WriteLine("pilha vazia"); return -1;}
+        if(top == -1){Console.WriteLine("\n\n#####pilha vazia#####"); return -1;}
         return elementos[top--];
     }
 
@@ -57,10 +57,39 @@ public class pilha
 
 
 //  CLASSE PRINCIPAL    
-class principal
+class Principal
 {
     public static void Main(string[] args)
     {
-        //digite pilha nomeDaVarivel = new pilha() **dentro dos parênteses, coloque o tamanho da pila
+        //recebedo o tamanho da pilha e criando ela 
+        Console.Write("\n\nDigite o tamanhoda pilha: ");
+        int tamanho_da_pilha = int.Parse(Console.ReadLine());
+        Pilha pilha1 = new Pilha(tamanho_da_pilha);
+
+        int escolha = 0;
+        while(escolha == 0)
+        {
+            Console.WriteLine("\n\n[1]Adicionar um item a pilha\n[2]Retirar item do topo\n[3]Ver item do topo");
+            int opcao = int.Parse(Console.ReadLine());
+
+                if(opcao == 1)
+                {
+                    Console.WriteLine("\n\nQual valor a ser adicionado: ");
+                    int valor_adicionado = int.Parse(Console.ReadLine());
+                    
+                    pilha1.push(valor_adicionado);
+                }else if(opcao == 2)
+                {
+                    int topo = pilha1.show();
+                    pilha1.pop();
+                    Console.WriteLine($"elemento {topo} removido");
+                }
+                
+                else if(opcao == 3)
+                {
+                    Console.WriteLine($"\n\nElemento no topo: {pilha1.show()}");
+                }
+        }
+
     }
 }
