@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pilha")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b27b0b4a811fb35a94835594e50d04cca158c29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3a30b142489b2f0e9cdc90c2a8e8654120302e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("pilha")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pilha")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
