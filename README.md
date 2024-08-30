@@ -4,6 +4,8 @@
 
 Uma **Pilha** é uma estrutura de dados que segue o princípio LIFO (*Last In, First Out*), que significa "Último a Entrar, Primeiro a Sair". Isso quer dizer que o último elemento adicionado à pilha será o primeiro a ser removido. Imagine uma pilha de pratos: quando você coloca um prato em cima de uma pilha, ele será o primeiro a ser retirado se você começar a remover os pratos a partir do topo.
 
+![pilha de pratos](https://growthcode.com.br/wp-content/uploads/2021/11/image-15.jpg)
+
 ## Funcionamento
 
 ### Operação `push()`
@@ -29,6 +31,8 @@ Imagine que você está trabalhando com uma pilha de documentos. Você começa c
 Se agora você quiser remover um documento da pilha, o documento C será removido primeiro, pois ele foi o último a entrar (LIFO). Se você remover outro documento, o documento B será removido. Finalmente, ao remover mais um documento, o documento A será retirado.
 
 Se você tentar remover um documento de uma pilha vazia, poderá encontrar uma situação onde a operação falha, uma vez que não há nada para remover. Por isso, é importante verificar se a pilha está vazia antes de tentar realizar a operação de remoção.
+
+![exemplo de pilha](https://www.cos.ufrj.br/~rfarias/cos121/operacoesPilha1.png)
 
 ## Aplicações Comuns
 
